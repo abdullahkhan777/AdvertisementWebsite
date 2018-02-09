@@ -1,0 +1,303 @@
+@font-face{
+	font-family: 'ubuntu';
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+@font-face{
+	font-family: 'ubuntu-b';
+	src: url(../fonts/ubuntu/Ubuntu-B.ttf);
+}
+@font-face{
+	font-family: 'ubuntu-M';
+	src: url(../fonts/ubuntu/Ubuntu-M.ttf);
+}
+
+body,footer,h1,a,nav,img{margin: 0; padding: 0; border: 0;}
+body{font-family: ubuntu;}
+header{margin: 0; padding: 0; border: 0; height: 80px;}
+footer{
+	clear: both;  height: 100px;
+}
+.footLinks a{
+	text-decoration: none; color: #000;
+}
+.clearfix{clear: both};
+.blur{filter: blur(5px);}
+#logo{margin:0; padding:0; border:0;
+	background: url("../graphics/logo/logo-sm.png") no-repeat;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+	height: 48px; width: 130px;	
+	text-indent: -9999px;
+}
+.content-width{width: 100%;}
+#header-links{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: bolder;
+	text-decoration: none;
+	display: none;
+}
+.submit-ad{display: block; float: right; margin-right: 20px; margin-top: 20px;}
+.linkheader-text:hover{text-shadow: 2px 2px 2px #444; }
+
+#header-links a{color: #000; text-decoration: none; 
+	font-size: 12px; 
+ }
+.two-col a{text-align: center;}
+#googleicon{border-radius: 50%; margin-bottom: 2px;}
+.sociallogos:hover{transform: scale(1.2);}
+.searchbar{
+	height: 80px;  background-color: #222222;
+	border-color: #080808;
+}
+#btnCategories{
+	width: 35px; height: 35px; border: none;
+	background: url("../graphics/icons/catmenu.png");
+}
+#btnHome{
+	margin-top: 5px; margin-left: 10px;
+	width: 30px; height: 30px; border: none;
+	background: url("../graphics/icons/homebtn.png");
+}
+#btnOptions{
+	width: 35px; height: 35px; border: none;
+	background: url("../graphics/icons/menu.png");
+}
+.dropDownCategories {
+	position: absolute;
+	margin-left: 8px;
+	margin-top: 2px;
+    display: inline;
+}
+nav.sm-only{height: 40px; background-color: #A0A0A0;}
+.dropDownOptions{
+   float: right;
+   margin-right: 20px;
+
+}
+.dropDown-contentC {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropDown-contentC a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropDown-contentC a:hover {background-color: #f1f1f1}
+.dropDown-contentO {
+    display: none;
+    position: absolute;
+    right: 20px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropDown-contentO a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropDown-contentO a:hover {
+	background-color: #f1f1f1;  
+}
+.show {display:block;}
+.navimg{
+	vertical-align: middle; display: inline;
+}
+
+
+.icon-default{width: 30px; height: 30px; vertical-align: middle; }
+.icon-small{width: 20px; height: 20px; vertical-align: middle; }
+.lg-only{display: none;}
+.sm-only{display: block;}
+.border{border: 2px solid black;}
+.searchtext{width: 50%;  margin: 20px; height: 30px; 
+	border-radius:6px; box-shadow:  10px 10px 5px #111;
+}
+.searchbutton{  
+	width: 60px; 
+	font-family: ubuntu-b;
+	height: 35px; border-radius:6px; font-size: 14px;
+	margin-left: -20px; box-shadow:  10px 10px 5px #111;
+}
+.postbutton{background-color: grey; font-family: ubuntu; font-weight: bold; height: 35px; border-radius:4px; font-size: 16px; }
+.postbutton:hover{opacity: 0.9; }
+.text-center{text-align: center;}
+.two-col{width:100%;}
+
+#nav-width{width: 20%;}
+.nav-link{
+	font-family: ubuntu-b;
+	padding: 20px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.nav-linkm{
+	height: 35px;
+	font-family: ubuntu-b;
+	display: inline;
+	text-decoration: none;
+}
+
+.form{box-sizing: border-box; border:1px solid black;
+	border-radius: 5px;  font-family: ubuntu-M;
+}
+.textfield {
+  padding: 2px; width: 220px;
+  border: solid 1px #dcdcdc;
+  border-radius: 3px;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.textfield:focus{
+	 border: solid 1px #707070;	 box-shadow: 0 0 9px 2px #666666;
+}
+#signupLink{text-decoration: underline; color: #fff; }
+.nav-link:hover{color: black;}
+.form h1{padding: 2px; color: #000; color: white; background-color: #222222;}
+.form h3,label{padding: 2px;}
+.form-content{padding: 0px; background-color: #222222; color: white;}
+#Welcome-msg{
+	color: #fff; display: inline; float: right;
+	 margin-top: -60px; margin-right: 30px;
+}
+#Welcome-msg a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#adpost-msg{
+	color: #fff; text-decoration: none; display: inline; 
+	float: left;
+	margin-top: -60px; margin-left: 60px;
+}
+#adpost-msg a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.customdropdown{
+	background-color: #222222;
+}
+.customdropdown:hover{
+	background-color: #000;
+}
+.btnPost{
+	background-color: #222222; color: #fff; padding: 10px;
+	width: 90px; font: 18px bolder; margin-left: 150px;
+}
+.btnPost:hover{
+	background-color: #000; 
+}
+#info{
+	display: inline;
+	clear: both;
+	margin: 0; padding: 0; border: 0;
+	width: 50%;
+	float: right;
+}
+.info-fix{
+	clear: both;
+	padding: 20px; float: left;
+	width: 100%; height: 100%;
+} 
+.floatleft{float: left;}
+.floatRight{right: 0px;}
+.displayblocklabel{
+	display: block; 
+	font-weight: bolder;
+}
+.ad-pic{width: 100%; background-size: cover;  height: 150px;}
+.ad-piclg{width: 100%; height: 400px;}
+.four-col{box-sizing: border-box; width: 100%; float: left;}
+.ad-details-btn{ 
+	width: 140px; 
+	font-family: ubuntu-b;
+	color: white;
+	background-color: #222222;
+	height: 40px; border-radius:6px; font-size: 16px;
+	margin-left: 30px; box-shadow:  1px 1px 2px #111;
+}
+.slider-width{
+	display: none;
+}
+
+.profile-btn{
+	width: 150px; 
+	font-family: ubuntu-b;
+	color: white;
+	background-color: #222222;
+	height: 40px; border-radius:6px; font-size: 16px;
+	box-shadow:  1px 1px 2px #111;
+}
+.submitbutton{
+	float: right;
+	background-color: #022220;
+	color: white;
+	width: 120px;
+	border-radius: 6px;
+	font-size: 14px;
+	padding: 8px;
+}
+.submitbutton:hover{
+	opacity: 0.8;
+	background-color: #022220;
+	border-radius: 7px;
+}
+.adfull{margin-top: 10px; padding: 10px;}
+.pageheight{height: 500px;}
+@media(min-width: 450px){
+	
+	.four-col{width: 50%; float: left;}
+
+}
+@media(min-width: 768px){
+	.lg-only{display: block;}
+		#header-links a{color: #000; text-decoration: none; 
+		font-size: 18px;
+	 }
+	.sm-only{display: none;}
+
+	 #header-links{
+		margin-right: 0; display: block;
+	}
+	.submit-ad{display: none;}
+
+	.form-content{padding: 10px;}
+	.form h1{padding: 10px;}
+	.form h3,label{padding: 10px;}
+	.two-col{width: 50%; float: left;}
+	.content-width{ width: 720px; margin: 0 auto;}
+	.form{width: 500px;}
+	.four-col{width: 25%; float: left;}
+	.ad-pic{width: 100%; height: 150px;}
+	.searchbutton{width: 100px; font-size: 16px; height: 45px;}
+	.searchtext{width: 60%;  margin: 30px; height: 40px; }
+	#logo{
+		background: url("../graphics/logo/logo.png") no-repeat;
+		margin-left: 0px;
+		margin-top: 0px;
+		height: 70px; width: 190px;
+	}
+	.searchbar{ height: 100px; display: block;}
+}
+
+@media(min-width: 1000px){
+	.content-width{ width: 880px; margin: 0 auto;}
+	.searchbutton{ width: 150px;}
+	.searchtext{width: 65%;}
+}
+@media(min-width: 1280px){
+	.content-width{ width: 980px; margin: 0 auto;}
+	.searchtext{width: 75%;}
+}
